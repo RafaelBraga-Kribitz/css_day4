@@ -20,12 +20,12 @@
 - [x] Add CSS for the navbar.
   - [x] Style the links.
     - [x] Set default font size and color for links.
-    - [ ] Apply hover transitions for font size and color changes.
-      - [ ] Adjust font size on hover.
-      - [ ] Change the link color on hover.
-- [ ] Be creative and design a reusable template.
-  - [ ] Add a heading or logo to the navbar.
-  - [ ] Test the hover effects in different browsers.
+    - [x] Apply hover transitions for font size and color changes.
+      - [x] Adjust font size on hover.
+      - [x] Change the link color on hover.
+- [x] Be creative and design a reusable template.
+  - [x] Add a heading or logo to the navbar.
+  - [x] Test the hover effects in different browsers.
 
 
 ### CSS | DAY 4 | Advanced Exercises
@@ -33,12 +33,11 @@
 #### Exercise 1: Photo Album
 
 ## Exercise 1: Photo Album
-- [ ] Create a new HTML file for the photo album.
+- [x] Create a new HTML file for the photo album.
   - [ ] Set up a 4x3 grid for the images.
-    - [ ] Alternatively, set up a 3x3 grid for a challenge.
   - [ ] Use `grid-template-columns` and `grid-template-rows` in CSS to define the grid layout.
   - [ ] Set a 20px gap between grid items.
-- [ ] Insert 6 pictures with a chosen theme (e.g., food, cars, landscapes).
+- [ ] Insert 6 pictures with a chosen theme (use <img src="https://via.placeholder.com/600x300" alt="pic1" />).
 - [ ] Apply a suitable design to the images.
   - [ ] Add captions if necessary.
   - [ ] Style the images and grid.
