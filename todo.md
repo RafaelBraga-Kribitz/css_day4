@@ -1,8 +1,4 @@
 
-# H1 title
-
-**BOLD**
-
 
 ### CSS | DAY 4 | CLASSWORK - Basic Exercises
 
@@ -12,15 +8,15 @@
 - [x] Open the CSS Grid Garden website: [CSS Grid Garden](https://cssgridgarden.com/#de)
 - [x] Complete levels to improve your understanding of CSS Grid.
   - [x] Focus on practicing grid layout properties.
-  - [ ] Ensure you complete at least 10 levels for a good practice session.
+  - [x] Ensure you complete at least 10 levels for a good practice session.
 
 
 #### Exercise 2: Navbar with Hover Transition
 
 ## Exercise 2: Navbar with Hover Transition
-- [ ] Create a new HTML document for the navbar.
-  - [ ] Set up basic HTML structure.
-  - [ ] Create the `<nav>` section with multiple links.
+- [x] Create a new HTML document for the navbar.
+  - [x] Set up basic HTML structure.
+  - [x] Create the `<nav>` section with multiple links.
 - [ ] Add CSS for the navbar.
   - [ ] Style the links.
     - [ ] Set default font size and color for links.
