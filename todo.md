@@ -1,11 +1,17 @@
+
+# H1 title
+
+**BOLD**
+
+
 ### CSS | DAY 4 | CLASSWORK - Basic Exercises
 
 #### Exercise 1: CSS Grid Garden
 
 ## Exercise 1: CSS Grid Garden
-- [ ] Open the CSS Grid Garden website: [CSS Grid Garden](https://cssgridgarden.com/#de)
-- [ ] Complete levels to improve your understanding of CSS Grid.
-  - [ ] Focus on practicing grid layout properties.
+- [x] Open the CSS Grid Garden website: [CSS Grid Garden](https://cssgridgarden.com/#de)
+- [x] Complete levels to improve your understanding of CSS Grid.
+  - [x] Focus on practicing grid layout properties.
   - [ ] Ensure you complete at least 10 levels for a good practice session.
 
 
