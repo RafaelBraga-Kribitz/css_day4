@@ -17,9 +17,9 @@
 - [x] Create a new HTML document for the navbar.
   - [x] Set up basic HTML structure.
   - [x] Create the `<nav>` section with multiple links.
-- [ ] Add CSS for the navbar.
-  - [ ] Style the links.
-    - [ ] Set default font size and color for links.
+- [x] Add CSS for the navbar.
+  - [x] Style the links.
+    - [x] Set default font size and color for links.
     - [ ] Apply hover transitions for font size and color changes.
       - [ ] Adjust font size on hover.
       - [ ] Change the link color on hover.

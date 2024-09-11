@@ -1,35 +1,91 @@
 :root {
-    --primary-clr: red;
-    --secondary-clr: yellow;
-    --text-light: blue;
-    --text-dark: purple;
-    --btn-bg-primary: whitesmoke;
-    --btn-text-primary: orange;
-    --btn-bg-secondary: cyan;
-    --btn-text-secondary: green;
-    --font-size-base: 14px;
-    --font-size-h1: 36px;
-    --font-size-h2: 28px;
-    --font-size-h3: 24px;
-    --font-size-p: 16px;
-    --font-family: Arial, sans-serif;
-    --max-width: 1200px;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .header {
-    background-color: var(--primary-clr);
-    padding: 15px 0;
-    color: var(--text-light);
-  }
+  --primary-clr: #e0e0e0;
+  --secondary-clr: #3d3d3d;
+  --text-light: white;
+  --text-dark: #333;
+  --btn-bg-primary: white;
+  --btn-text-primary: #01d1ce;
+  --btn-bg-secondary: #0193d1;
+  --btn-text-secondary: white;
+  --font-size-base: 14px;
+  --font-size-h1: 36px;
+  --font-size-h2: 28px;
+  --font-size-h3: 24px;
+  --font-size-p: 16px;
+  --font-family: Arial, sans-serif;
+  --max-width: 1200px;
+  --hover-color: #ff6347; /* Tomato color for hover */
+  --hover-font-size: 1.1em; /* Slightly larger font size on hover */
+}
 
-  .header-container {
-    background-color: var(--primary-clr);
-    color: var(--text-light);
-    text-align: center;
-    padding: 1rem;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.header {
+  background-color: var(--primary-clr);
+  padding: 15px 0;
+  color: var(--text-light);
+}
+
+.header-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+  max-width: 60px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav ul li a {
+  color: var(--text-light);
+  text-decoration: none;
+  transition: color 0.3s, font-size 0.3s; /* Add transition for smooth effect */
+}
+
+.nav ul li a:hover {
+  color: var(--hover-color); /* Change color on hover */
+  font-size: var(--hover-font-size); /* Increase font size on hover */
+}
+
+.user-menu a {
+  color: var(--text-light);
+  text-decoration: none;
+  transition: color 0.3s, font-size 0.3s; /* Add transition for smooth effect */
+}
+
+.user-menu a:hover {
+  color: var(--hover-color); /* Change color on hover */
+  font-size: var(--hover-font-size); /* Increase font size on hover */
+}
+
+/* Reusable hover effect class */
+.hover-effect {
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.hover-effect:hover {
+  color: var(--hover-color);
+  font-size: var(--hover-font-size);
+}

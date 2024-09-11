@@ -26,7 +26,7 @@
 
 # Other folders to ignore
 
-prints/
+# prints/
 
 # Node modules (if using Node.js)
 # node_modules/
